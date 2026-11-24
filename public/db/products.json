@@ -1,0 +1,14 @@
+[
+  {"id":1,"name":"Smartphone Pro 5G, 256 GB","dept":"ELECTRONICS","price":42999,"was":54999,"stars":5,"votes":1248,"flag":"Limited deal","img":"/assets/photo01.jpg","category":"electronics"},
+  {"id":2,"name":"UltraBook Laptop, 14-inch display","dept":"COMPUTERS","price":58990,"was":69990,"stars":4,"votes":862,"flag":"Deal of the day","img":"/assets/photo02.jpg","category":"electronics"},
+  {"id":3,"name":"Wireless Earbuds with charging case","dept":"AUDIO","price":2499,"was":3999,"stars":5,"votes":3410,"flag":"Bestseller","img":"/assets/photo03.jpg","category":"electronics"},
+  {"id":4,"name":"Smart Watch with fitness tracking","dept":"WEARABLES","price":3999,"was":5499,"stars":4,"votes":975,"flag":"25% off","img":"/assets/photo04.jpg","category":"electronics"},
+  {"id":5,"name":"Running Sneakers – White Edition","dept":"FOOTWEAR","price":1899,"was":2999,"stars":4,"votes":620,"flag":"Trending","img":"/assets/photo05.jpg","category":"fashion"},
+  {"id":6,"name":"Travel Backpack 35L, Waterproof","dept":"BAGS","price":1299,"was":1999,"stars":5,"votes":1540,"flag":"Top pick","img":"/assets/photo06.jpg","category":"fashion"},
+  {"id":7,"name":"Skincare Starter Kit – 5 pcs","dept":"BEAUTY","price":799,"was":1199,"stars":4,"votes":880,"flag":"New","img":"/assets/photo07.jpg","category":"fashion"},
+  {"id":8,"name":"Stand Mixer 500W, 7 speed","dept":"KITCHEN","price":5999,"was":7999,"stars":5,"votes":430,"flag":"Deal","img":"/assets/photo08.jpg","category":"home"},
+  {"id":9,"name":"LED Desk Lamp with USB port","dept":"HOME OFFICE","price":899,"was":1299,"stars":4,"votes":720,"flag":"Popular","img":"/assets/photo09.jpg","category":"home"},
+  {"id":10,"name":"DSLR Camera 24MP, 2 lenses","dept":"CAMERAS","price":34999,"was":42999,"stars":5,"votes":280,"flag":"Limited","img":"/assets/photo10.jpg","category":"electronics"},
+  {"id":11,"name":"Soft Microfibre Bedding Set – Blue","dept":"BEDDING","price":1499,"was":2199,"stars":4,"votes":390,"flag":"Sale","img":"/assets/photo11.jpg","category":"home"},
+  {"id":12,"name":"Stainless Steel Water Bottle 1L","dept":"SPORTS","price":449,"was":699,"stars":5,"votes":2110,"flag":"Bestseller","img":"/assets/photo12.jpg","category":"home"}
+]

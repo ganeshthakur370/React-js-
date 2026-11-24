@@ -1,0 +1,80 @@
+.ckwrap { max-width: 760px; margin: 0 auto; padding: 20px 0; }
+
+.ckform h1 { font-size: 26px; margin-bottom: 20px; }
+
+.cksect {
+  background: #fff;
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.cksect h2 { font-size: 16px; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid #f0f0f0; }
+
+.cksect label {
+  display: flex; flex-direction: column;
+  font-size: 13px; font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.cksect input[type="text"],
+.cksect input:not([type="radio"]) {
+  margin-top: 5px;
+  padding: 9px 12px;
+  border: 1px solid #c9cdd2;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.cksect input:focus { outline: 2px solid #f4a340; border-color: transparent; }
+
+.ckrow { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+.radio { flex-direction: row !important; align-items: center; gap: 10px; font-weight: normal !important; cursor: pointer; }
+.radio input { width: 16px; height: 16px; margin: 0; }
+
+.ckitem {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 0; border-bottom: 1px solid #f5f5f5;
+}
+
+.ckitem img { width: 60px; height: 60px; object-fit: contain; background: #fafafa; border-radius: 5px; }
+.ckitem div { flex: 1; }
+.ckitem div p { font-size: 13px; font-weight: bold; }
+.ckitem div small { font-size: 11px; color: #888; }
+.ckitem > p { font-size: 15px; font-weight: bold; }
+
+.ckfoot { text-align: right; }
+.cktotal { font-size: 15px; margin-bottom: 14px; }
+.cktotal strong { font-size: 20px; }
+
+.ckplace {
+  padding: 11px 28px;
+  background: #ffd814;
+  border: 1px solid #f0c14b;
+  border-radius: 20px;
+  font-size: 15px; font-weight: bold; cursor: pointer;
+}
+
+.ckplace:hover { background: #f7ca00; }
+
+.placed {
+  text-align: center; padding: 80px 20px;
+}
+
+.placed i { font-size: 60px; color: #007600; display: block; margin-bottom: 20px; }
+.placed h2 { font-size: 26px; margin-bottom: 10px; }
+.placed p { color: #555; margin-bottom: 24px; }
+.placed button {
+  margin: 0 8px;
+  padding: 10px 24px;
+  background: #ffd814; border: 1px solid #f0c14b;
+  border-radius: 20px; font-weight: bold; cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .ckrow { grid-template-columns: 1fr; }
+  .ckfoot { text-align: left; }
+}
